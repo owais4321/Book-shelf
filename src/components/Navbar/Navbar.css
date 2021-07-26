@@ -15,5 +15,6 @@
 /* styling at hover event for nav item */
 .navitem:hover{
 color: black;
-font-weight: bold
+font-weight: bold;
+cursor: pointer;
 }

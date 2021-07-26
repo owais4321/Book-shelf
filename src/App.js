@@ -123,16 +123,14 @@ class App extends Component {
     if(name==='statuschange'){
     const value=e.target.value
     const id=e.target.getAttribute('id')
-    console.log(value)
-    console.log(id)
     let obj=this.state.books.filter(book=>book.id==id)
     obj=obj[0]
+    let index=this.state.books.findIndex(book=>book.id==id);
     obj.status=value;
-    console.log(obj)
+    console.log(index)
    let books=this.state.books
-    books[id-1]=obj
+    books[index]=obj
     this.setState({books:books})
-    console.log(books)
     }
     //change handler for title field in modal
     else if(name=='title'){
