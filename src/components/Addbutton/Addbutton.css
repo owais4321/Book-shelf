@@ -1,0 +1,20 @@
+/* styling addbutton */
+.addbutton{
+    height: 50px;
+    width: 50px;
+    border-radius:100px;
+    background: green;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    position: static;
+    }
+/* styling addbutton container*/
+.buttoncontainer{
+    position: fixed;;
+     bottom:0;
+     right:0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5px 5px 0
+}

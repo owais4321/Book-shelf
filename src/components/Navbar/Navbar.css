@@ -1,0 +1,19 @@
+/* styling navbar */
+.navbar{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    background: antiquewhite;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+}
+/* styling nav item */
+.navbar .navitem{
+    padding-left: 2%;
+}
+/* styling at hover event for nav item */
+.navitem:hover{
+color: black;
+font-weight: bold
+}

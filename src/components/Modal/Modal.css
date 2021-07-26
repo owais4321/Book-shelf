@@ -1,0 +1,70 @@
+/* styling for the overlay */
+.modal {
+    position: fixed;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.5);
+    top: 0%;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+  }
+/* styling for the container inside overlay */  
+.modal-container{
+    position: absolute;
+    width: 33%;
+    background: white;
+    margin-left: 33%;
+    margin-top:7%; 
+    padding: 20px;
+    border: 2px slategray solid;
+    border-radius: 10px;
+}
+/* styling for the button */
+.modal-add-button{
+display: block;
+  }
+/* styling for the title field */
+#title{
+    display: block;
+}
+/* styling for the author field */
+#author{
+    display: block;
+}
+/* styling for the link field */
+#link{
+display: block
+}
+/* styling for the select status field */
+.addto{
+    display: block;
+}
+/* combined styling for the input select and button inside the modal */
+.modal-container input,select,button{
+    margin: 5px;
+}
+/* combined styling for the input and select inside the modal */
+.modal-container input,select{
+    border: 2px slategray solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 60%
+}
+/*styling for the close button inside the modal */
+.close{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+/*styling for the add button inside the modal */
+.modal-container button{
+    border-radius: 10px;
+    height: 40%;
+    width: 20%;
+    margin-top:10px; 
+}
+/* change the cursor at close button on hover */
+.close span:hover{
+cursor: pointer;
+}

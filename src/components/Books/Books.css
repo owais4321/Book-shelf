@@ -1,0 +1,9 @@
+/* styling the booklist class */
+.booklist{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 7%
+}
+
